@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+*{
+    font-family: 'Merienda';
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header{
+	max-width: 1500px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+	align-items: center;
+    background-color: #000;
+}
+
+nav ul{
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+}
+nav ul li{
+	padding: 0 10px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+nav ul li a:hover{
+	text-decoration: underline;
+}
+
+.container h1{
+    text-align: center;
+ }
+
+.info{
+	background-color: #000;
+	color: #fff;
+	padding: 15px 0;
+	text-align: center;
+}
+.redes a img{
+	width: 40px;
+	margin: 0 10px;
+}
+
+.container img {
+    width: 500px;
+    height: auto;
+}
+.container .box {
+    display : flex;
+    flex-direction : row; 
+ }           
+ .container .box .box-cell.box1 {
+    margin: 5%;
+    width: 40%;
+    align-items: center;
+    color:white;
+    text-align:justify;
+ }
+.container .box .box-cell.box2 {
+    width: 40%;
+    margin: 5%;
+    margin-left: 0;
+    text-align:justify
+}
+
+.contenedor .caja {
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 90%;
+    display : flex;
+    flex-direction : row; 
+    margin-bottom: 4%;
+}
+
+.contenedor .caja .celda-caja.caja1 {
+    width: 50%;
+    padding: 10px;
+    align-items: center;
+    color:black;
+    text-align: justify;
+    margin-right: 5%;
+    border: #000 solid 2px;
+    box-shadow: rgb(136, 136, 136) 3px 3px 1px;
+ }
+
+ .contenedor .caja .celda-caja.caja2 {
+    width: 50%;
+    padding: 10px;
+    align-items: center;
+    color:black;
+    text-align:justify;
+    border: #000 solid 2px;
+    box-shadow: rgb(136, 136, 136) 3px 3px 1px;
+ }
+
+ .extras {
+    width: 95%;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 0;
+ }
+ .contenido {
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 2%;
+ }
+ .contenido .rows {
+    width: 100%;
+    align-items: center;
+    text-align: justify;
+    display: flex;
+    flex-direction: row; 
+ }
+ .contenido .rows .celda-row.row1,
+ .contenido .rows .celda-row.row2,
+ .contenido .rows .celda-row.row3,
+ .contenido .rows .celda-row.row4  {
+    width: 20%;
+    padding: 10px;
+    align-items: center;
+    color:black;
+    margin-right: 5%;
+    border: #000 solid 2px;
+    box-shadow: rgb(136, 136, 136) 3px 3px 1px;
+    text-align: center;
+ }
+
+ .contenido a {
+    color:#000;
+ }
+
+ .contenido a:hover {
+    transition: .2s;
+    text-shadow: black 2px 2px 5px;
+ }
+
+ .contenedor-valores {
+   width: 40%;
+   margin-top: 2%;
+   margin-left: 30%;
+   text-align: center;
+   border: #000 solid 2px;
+   box-shadow: rgb(136, 136, 136) 3px 3px 1px;
+   padding: 2%;
+   margin-bottom: 2%;
+}
+
+.contenedor-valores ul {
+   list-style: none;
+}
+.tiendas {
+   background-color: #fff;
+}
+
+.tabla {
+   margin-top: 2%;
+}

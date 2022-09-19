@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+*{
+    font-family: 'Merienda';
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header{
+	max-width: 1500px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+	align-items: center;
+    background-color: #000;
+}
+
+nav ul{
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+}
+nav ul li{
+	padding: 0 10px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+nav ul li a:hover{
+	text-decoration: underline;
+}
+
+.container h1{
+    text-align: center;
+ }
+
+.info{
+	background-color: #000;
+	color: #fff;
+	padding: 15px 0;
+	text-align: center;
+}
+.redes a img{
+	width: 40px;
+	margin: 0 10px;
+}
+
+h2 {
+    margin-top: 2%;
+    text-align: center;
+    width: 90%;
+    padding: 4%;
+    margin-left: 3%;
+    letter-spacing: 1.5;
+    border: 2px solid gray;
+    box-shadow: black 6px 6px 4px;
+    border-radius: 30px;
+ }
+
+ 
+h3 {
+    margin: 3%;
+ }
+
+ iframe {
+    margin-left: 15%;
+    width: 70%;
+ }
